@@ -1,8 +1,3 @@
-/* ============================================
-   PODOSTUDIO · interacción
-   Único dato a configurar: CONFIG.telefono
-   ============================================ */
-
 const CONFIG = {
   telefono: "5493764834736",
   nombre: "PODOSTUDIO",
@@ -206,4 +201,8 @@ document.addEventListener("DOMContentLoaded", () => {
   iniciarFaq();
   iniciarAnclas();
   iniciarAnio();
+});
+
+document.addEventListener('contextmenu', (e) => {
+    e.preventDefault();
 });
